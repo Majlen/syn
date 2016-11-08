@@ -102,7 +102,7 @@ public class CSPReport {
 	public void store(Connection sql) throws SQLException {
 		PreparedStatement s = sql.prepareStatement("INSERT INTO csp (blocked_uri, document_uri, effective_directive," +
 				"original_policy, referrer, status_code, violated_directive, source_file, line_number," +
-				"column_number, date) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+				"column_number, date) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 		s.setString(1, blocked_uri);
 		s.setString(2, document_uri);
 		s.setString(3, effective_directive);

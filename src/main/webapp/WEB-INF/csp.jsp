@@ -30,7 +30,7 @@
 		<th id="violated-directive">Violated directive</th>
 		<th id="source-file">Source file</th>
 		<th id="line-number">Line number</th>
-		<th id="column-cumber">Column number</th>
+		<th id="column-number">Column number</th>
 	</tr>
 	<c:forEach items="${violations}" var="violation">
 	<tr>

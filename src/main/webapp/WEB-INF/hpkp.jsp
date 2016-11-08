@@ -36,13 +36,13 @@
 			<c:out value="${violation.hostname}" />
 		</td>
 		<td id="date-time">
-			<javatime:formatDate style="LL" value="${violation.date_time}" />
+			<javatime:format style="LL" value="${violation.date_time}" />
 		</td>
 		<td id="port">
 			<c:out value="${violation.port}" />
 		</td>
 		<td id="effective-expiry">
-			<javatime:formatDate style="LL" value="${violation.effective_expiry}" />
+			<javatime:format style="LL" value="${violation.effective_expiry}" />
 		</td>
 		<td id="include-subdomains">
 			<c:out value="${violation.include_subdomains}" />
